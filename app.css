@@ -542,6 +542,11 @@ video {
   background-size: cover;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 body{
   background-image: url(images/0cb7132535da4267a72f4ef2fc552894.jpeg);
 }
