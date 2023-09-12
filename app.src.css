@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-image: url(images/0cb7132535da4267a72f4ef2fc552894.jpeg);
+
+.vid-card{
+    height: 10rem;
+    width: 15.5rem;
+}
+.grow-2{
+    flex-grow: 2;
 }

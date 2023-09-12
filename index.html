@@ -3,56 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css"><!-- to watch this do npx tailwindcss -i \app.src.css -o \app.css -w -->
+    <link rel="stylesheet" href="app.css"><!-- to watch this do npx tailwindcss -i \app.src.css -o \app.css -w  and to leave watch do ctrl+C -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d38fb97c4.js" crossorigin="anonymous"></script>
     <title>Nootflix</title>
 </head>
-<body>
-    <div>
-        <div>
-            
-        </div>
+<body class="flex items-center bg-cover bg-no-repeat w-screen bg-slate-300" id="mybgimage">
+    <div class="container mx-auto my-8 flex gap-4 items-center ">
+
+        <div class="bg-gray-600 opacity-95 flex flex-col  h-96 rounded-3xl justify-evenly items-center gap-4 p-2">
+            <span class="fa-regular fa-circle-play fa-2xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-table-cells-large fa-2xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-tv fa-2xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-podcast fa-2xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-music fa-2xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></span>
+        </div><!--icon container-->
         
-        <div>
-            <div>
-                <h1></h1>
-                <div></div>
-                <div>
-                    <div class="flex-col">
-                        <div></div>
-                        <div></div>
+        <div class="flex grow-2 h-1/4 w-2/3 bg-gray-500 bg-opacity-95 rounded-3xl">
+
+            <section class="flex flex-col gap-8 bg-gray-400 rounded-l-3xl p-8">
+                <img src="images/netflix-logo.png" alt="Netflix logo" class="w-52">
+                <nav class="text-white">
+                    <ul class="flex flex-col gap-3">
+                        <li><a href="#"><span class="fa-regular fa-circle-play fa-lg" style="color:#E50A15;"></span> Browse</a></li>
+                        <li><a href="#"><span class="fa-regular fa-heart fa-lg" style="color: #cdcecf;"></span> Wishlist</a></li>
+                        <li><a href="#"><span class="fa-solid fa-calendar-week" style="color: #cdcecf;"></span> Comming Soon</a></li>
+                    </ul>
+                </nav>
+
+                <div class="flex flex-col gap-7">
+                    <h1>New Trailers &#128293;</h1>
+                    <div class="vid-card rounded-3xl bg-center bg-cover bg-no-repeat flex items-end" style="background-image: url(images/shadow-and-bone-season-2-social-9.jpg);">
+                        <div class="rounded-b-3xl bg-blue-200 w-full h-1/6 bg-opacity-60 backdrop-blur-sm"></div>
                     </div>
-                    <div class="flex-col">
-                        <div></div>
-                        <div></div>
+
+                    <div class="vid-card rounded-3xl bg-center bg-cover bg-no-repeat flex items-end" style="background-image: url(images/nightagent.jpg);">
+                        <div class="rounded-b-3xl bg-slate-300 w-full h-1/6 bg-opacity-70 backdrop-blur-sm"></div>
                     </div>
-                    <div class="flex-col">
-                        <div></div>
-                        <div></div>
+
+                    <div class="vid-card rounded-3xl bg-center bg-cover bg-no-repeat flex items-end" style="background-image: url(images/witcher.jpg);">
+                        <div class="rounded-b-3xl bg-blue-200 w-full h-1/6 bg-opacity-60 backdrop-blur-sm flex justify-end">
+                            
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section> <!--sidebar/nav container-->
     
             <div>
                 <div></div>
                 <div></div>
+
                 <div>
-                    <div>
-                        <h3 class="text-white">Popcorn Mania</h3>
+                <section>
+                     <h3 class="text-white">Popcorn Mania</h3>
                         <div></div>
                         <div></div>
                         <div></div>
                         <div></div>
+                        </section>
+                        <section>
+                            <h3 class="text-white">Continue Watching</h3>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </section>
                     </div>
-                    <div>
-                        <h3 class="text-white">Continue Watching</h3>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                </div><!--content container-->
+
+            </div><!--main contaier-->
+
     </div>
     
 </body>
