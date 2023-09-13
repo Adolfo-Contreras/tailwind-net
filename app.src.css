@@ -9,3 +9,12 @@
 .grow-2{
     flex-grow: 2;
 }
+.cust-red{
+    color: #E50A15;
+}
+.bg-cust-red{
+    background-color:#E50A15;
+}
+.border-cust-color{
+    border-color: #7e7e7e;
+}

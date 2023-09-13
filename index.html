@@ -20,13 +20,13 @@
             <span class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></span>
         </div><!--icon container-->
         
-        <div class="flex grow-2 h-1/4 w-2/3 bg-gray-500 bg-opacity-95 rounded-3xl">
+        <div class="flex grow-2 h-1/4 w-2/3 bg-opacity-60 backdrop-blur-lg border border-cust-color rounded-3xl">
 
-            <section class="flex flex-col gap-8 bg-gray-400 rounded-l-3xl p-8">
+            <section class="flex flex-col gap-8  bg-opacity-60 backdrop-blur-3xl rounded-l-3xl p-8">
                 <img src="images/netflix-logo.png" alt="Netflix logo" class="w-52">
                 <nav class="text-white">
                     <ul class="flex flex-col gap-3">
-                        <li><a href="#"><span class="fa-regular fa-circle-play fa-lg" style="color:#E50A15;"></span> Browse</a></li>
+                        <li><a href="#"><span class="fa-solid fa-circle-play fa-lg cust-red"></span> Browse</a></li>
                         <li><a href="#"><span class="fa-regular fa-heart fa-lg" style="color: #cdcecf;"></span> Wishlist</a></li>
                         <li><a href="#"><span class="fa-solid fa-calendar-week" style="color: #cdcecf;"></span> Comming Soon</a></li>
                     </ul>
@@ -50,14 +50,14 @@
                 </div>
             </section> <!--sidebar/nav container-->
     
-            <section class="p-4 grow-2 flex flex-col content-evenly">
+            <section class="p-6 pr-8 grow-2 flex flex-col gap-8">
                 <section class="flex justify-between items-center gap-8 w-full">
                     <div class="text-3xl font-thin">
                         <span>&lt;</span>
                         <span>&gt;</span>
                     </div>
                     <div class="grow-2">
-                        <input class="rounded-2xl p-1 w-1/2" type="text" name="Search" id="Search" placeholder="Search...">
+                        <input class="rounded-3xl p-2 w-1/2" type="text" name="Search" id="Search" placeholder="Search...">
                     </div>
                     <div class="flex items-center">
                         <div class="bg-slate-300 w-10 h-10 rounded-3xl flex justify-center items-center">
@@ -69,10 +69,11 @@
                         </div>
                     </div>
                 </section >
-                <div class="bg-cover bg-no-repeat h-2/5 w-full rounded-2xl" id="peaky">
+
+                <div class="bg-cover bg-no-repeat h-2/5 w-full rounded-2xl p-4" id="peaky"><!--peakyblinders thing-->
                     <img src="" alt="Peaky Blinders Text">
                     <nav>
-                        <ul class="flex">
+                        <ul class="flex justify-start gap-2 text-white">
                             <li><a href="#">2013</a></li>
                             <li>&bull;</li>
                             <li><a href="#">Drama</a></li>
@@ -80,28 +81,35 @@
                             <li><a href="#">5 Seasons</a></li>
                         </ul>
                     </nav>
-                    <div class="text-white">
-                        <button>Watch</button>
+                    <div class="text-white flex justify-between items-center gap-4">
+                        <button class="bg-cust-red py-2 px-4 rounded-xl h-10 text-center">Watch</button>
+                        <div class="bg-gray-500 p-4 rounded-lg w-14 h-10 flex justify-center items-center"><span class="fa-solid fa-plus fa-lg" style="color: #ffffff;"></span></div>
+                        <section class="flex grow-2 gap-4 justify-end">
+                            <div><img class="h-10 rounded-lg object-cover" src="images/britsd.jpg" alt="Scene Card"></div>
+                            <div><img class="h-10 rounded-lg object-cover" src="images/unironicallygoeshard.jpg" alt="Scene Card"></div>
+                            <div><img class="h-10 rounded-lg object-cover" src="images/peakygang.webp" alt="Scene Card"></div>
+                        </section>
                     </div>
                 </div>
 
-                <div>
-                <section>
-                     <h3 class="text-white">Popcorn Mania</h3>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </section>
-                        <section>
-                            <h3 class="text-white">Continue Watching</h3>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </section>
-                    </div>
-                </section><!--content container-->
+                <div class="flex flex-col justify-between gap-4">
+                    <h3 class="text-white">Popcorn Mania</h3>
+                    <section class="flex justify-between">
+                        <div class="w-64 h-40 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="brook"></div>
+                        <div class="w-64 h-40 bg-cover rounded-xl shadow shadow-red-400 flex items-end bg-center" id="readyPlay"></div>
+                        <div class="w-64 h-40 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="moneyHeist"></div>
+                        <div class="w-64 h-40 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="ashEvil"></div>
+                    </section>
+
+                    <h3 class="text-white">Continue Watching</h3>
+                    <section class="flex justify-between">
+                        <div class="w-64 h-36 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="redNot"></div>
+                        <div class="w-64 h-36 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="extraction"></div>
+                        <div class="w-64 h-36 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="adamProj"></div>
+                        <div class="w-64 h-36 bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="oldGuard"></div>
+                    </section>
+                </div>
+            </section><!--content container-->
 
             </div><!--main contaier-->
 
