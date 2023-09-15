@@ -20,3 +20,22 @@
 .cust-w-vid{
 width: 23.5%;
 }
+.smolHeight{
+    height: 5%
+}
+.cust-progBar[value]::-moz-progress-bar{
+    background-color: #E50A15;
+}
+.cust-progBar::-webkit-progress-bar{
+    color: #E50A15;
+}
+.cust-side-w{
+    width: 18.8%;
+}
+.cust-trailer-wh{
+    width: 100%;
+    height: 35%;
+}
+.cust-container-h{
+    height: 90%;
+}
