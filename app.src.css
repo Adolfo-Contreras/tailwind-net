@@ -39,3 +39,17 @@ width: 23.5%;
 .cust-container-h{
     height: 90%;
 }
+.cust-vid-shadow{
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+#oldGuard::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+    pointer-events: none;
+    z-index: 3; 
+  }

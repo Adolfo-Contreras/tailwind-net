@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en" class="h-full w-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +11,33 @@
 <body class="flex items-center justify-center bg-cover bg-no-repeat w-full h-full bg-slate-300" id="mybgimage">
     <div class="w-full cust-container-h container flex gap-4 items-center">
 
-        <div class="bg-gray-600 opacity-95 flex flex-col  h-96 rounded-3xl justify-evenly items-center gap-8 p-2">
-            <span class="fa-regular fa-circle-play fa-2xl" style="color: #ffffff;"></span>
-            <span class="fa-solid fa-table-cells-large fa-2xl" style="color: #ffffff;"></span>
-            <span class="fa-solid fa-tv fa-2xl" style="color: #ffffff;"></span>
-            <span class="fa-solid fa-podcast fa-2xl" style="color: #ffffff;"></span>
-            <span class="fa-solid fa-music fa-2xl" style="color: #ffffff;"></span>
-            <span class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></span>
+        <div class="bg-white/5 backdrop-blur-sm opacity-60 flex flex-col border border-cust-color h-96 rounded-3xl justify-evenly items-center gap-8 p-2">
+            <span class="fa-regular fa-circle-play text-3xl md:text-xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-table-cells-large text-3xl md:text-xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-tv text-3xl md:text-xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-podcast text-3xl md:text-xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-music text-3xl md:text-xl" style="color: #ffffff;"></span>
+            <span class="fa-solid fa-magnifying-glass text-3xl md:text-xl" style="color: #ffffff;"></span>
         </div><!--icon container-->
         
-        <div class="flex grow-2 h-full w-2/3 bg-opacity-60 backdrop-blur-lg border border-cust-color rounded-3xl">
+        <div class="flex grow-2 h-full w-2/3 bg-black/25 bg-opacity-60 backdrop-blur-lg border border-cust-color rounded-3xl">
 
-            <section class="flex flex-col justify-between gap-5 bg-opacity-60 cust-side-w h-full backdrop-blur-3xl rounded-l-3xl p-6">
+            <section class="flex flex-col justify-between gap-5 bg-white/5 bg-opacity-60 cust-side-w h-full backdrop-blur-3xl rounded-l-3xl p-6 md:p-4">
                 <img src="images/netflix-logo.png" alt="Netflix logo" class="w-10/12 h-fit">
                 <nav class="text-white w-8/12">
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"><span class="fa-solid fa-circle-play fa-lg cust-red"></span> Browse</a></li>
-                        <li><a href="#"><span class="fa-regular fa-heart fa-lg" style="color: #cdcecf;"></span> Wishlist</a></li>
-                        <li><a href="#"><span class="fa-solid fa-calendar-week" style="color: #cdcecf;"></span> Comming Soon</a></li>
+                        <li><a href="#"><span class="fa-regular fa-heart fa-lg" style="color: #cdcecf;"></span> Watchlist</a></li>
+                        <li><a href="#"><span class="fa-solid fa-calendar-week" style="color: #cdcecf;"></span> Coming Soon</a></li>
                     </ul>
                 </nav>
 
-                <div class="flex flex-col gap-6 h-2/3 w-full ">
+                <div class="flex flex-col gap-6 h-2/3 w-full md:gap-3">
                     <h1 class="text-white">New Trailers &#128293;</h1>
 
                     <div class="cust-trailer-wh rounded-2xl bg-center bg-cover bg-no-repeat flex items-end" style="background-image: url(images/shadow-and-bone-season-2-social-9.jpg);">
                         <div class="rounded-b-2xl bg-gray-400 w-full h-1/5 bg-opacity-60 backdrop-blur-sm flex justify-end items-center pr-3.5">
-                            <h3 class="grow-2 text-white p-1">Shawdow and Bone</h3>
+                            <h3 class="grow-2 text-white p-1 md:text-xs md:p-2">Shadow and Bone</h3>
                             <div class="rounded-2xl w-6 h-6 backdrop-blur-3xl bg-gray-800 opacity-60 flex justify-center items-center">
                                 <span class="fa-solid fa-play fa-xs" style="color: #ffffff;"></span>
                             </div>
@@ -46,7 +46,7 @@
 
                     <div class="cust-trailer-wh rounded-2xl bg-center bg-cover bg-no-repeat flex items-end" style="background-image: url(images/nightagent.jpg);">
                         <div class="rounded-b-2xl bg-gray-400 w-full h-1/5 bg-opacity-60 backdrop-blur-sm flex justify-end items-center pr-3.5">
-                            <h3 class="grow-2 text-white p-1">The Night Agent</h3>
+                            <h3 class="grow-2 text-white p-1 md:text-xs md:p-2">The Night Agent</h3>
                             <div class="rounded-2xl w-6 h-6 backdrop-blur-3xl bg-slate-500 opacity-60 flex justify-center items-center">
                                 <span class="fa-solid fa-play fa-xs" style="color: #ffffff;"></span>
                             </div>
@@ -55,7 +55,7 @@
 
                     <div class="cust-trailer-wh rounded-2xl bg-center bg-cover bg-no-repeat flex items-end h" style="background-image: url(images/witcher.jpeg);">
                         <div class="rounded-b-2xl bg-gray-400 w-full h-1/5 bg-opacity-60 backdrop-blur-sm flex justify-end items-center pr-3.5">
-                            <h3 class="grow-2 text-white p-1">The Witcher</h3>
+                            <h3 class="grow-2 text-white p-1 md:text-xs md:p-2">The Witcher</h3>
                             <div class="rounded-2xl w-6 h-6 backdrop-blur-3xl bg-slate-500 opacity-60 flex justify-center items-center">
                                 <span class="fa-solid fa-play fa-xs" style="color: #ffffff;"></span>
                             </div>
@@ -66,8 +66,9 @@
 
             </section> <!--sidebar/nav container-->
     
-            <section class="p-6 pr-8 grow-2 flex flex-col gap-8">
-                <section class="flex justify-between items-center gap-8 w-full">
+            <section class="p-6 pr-8 grow-2 flex flex-col gap-8 md:gap-4 md:p-4 md:pr-6">
+
+                <section class="flex justify-between items-center gap-8 w-full md:gap-6">
                     <div class="text-3xl font-thin">
                         <span>&lt;</span>
                         <span>&gt;</span>
@@ -75,18 +76,20 @@
                     <div class="grow-2">
                         <input class="rounded-3xl p-2 w-1/2" type="text" name="Search" id="Search" placeholder="Search...">
                     </div>
+
                     <div class="flex items-center">
-                        <div class="bg-slate-300 w-10 h-10 rounded-3xl flex justify-center items-center">
+                        <div class="bg-slate-300 w-10 h-10 rounded-3xl flex justify-center items-center md:h-8 md:w-8">
                             <span class="fa-regular fa-bell fa-lg"></span>
                         </div>
-                        <div class="bg-slate-300 rounded-2xl h-12 grow flex gap-3 p-2 items-center">
-                            <div class="rounded-3xl flex justify-center items-center border-red-600 border-4"><img src="images/sam.jpg" class="w-10 h-10 bg-center rounded-3xl" alt="Profile Picture" ></div>
+                        <div class="bg-slate-300 rounded-2xl h-12 grow flex gap-3 p-2 items-center md:h-10">
+                            <div class="rounded-3xl flex justify-center items-center border-red-600 border-4"><img src="images/sam.jpg" class="w-10 h-10 bg-center rounded-2xl md:h-7 md:w-7" alt="Profile Picture" ></div>
                             <p><span>Samantha G.</span><span>@Samantha</span></p>
                         </div>
                     </div>
-                </section >
 
-                <div class="bg-cover bg-no-repeat h-2/5 w-full rounded-2xl p-4 flex flex-col" id="peaky"><!--peakyblinders thing-->
+                </section>
+
+                <div class="bg-cover bg-no-repeat h-2/5 w-full rounded-2xl p-4 flex flex-col md:p-3" id="peaky"><!--peakyblinders thing-->
                     <img src="images/peakyText.png" alt="Peaky Blinders Text" class="grow-2 h-1/5 w-1/4">
                     <nav class="my-4">
                         <ul class="flex justify-start gap-2 text-white">
@@ -98,38 +101,98 @@
                         </ul>
                     </nav>
                     <div class="text-white flex justify-between items-center gap-4">
-                        <button class="bg-cust-red py-2 px-4 rounded-xl h-10 text-center">Watch</button>
-                        <div class="bg-gray-500 p-4 rounded-lg w-14 h-10 flex justify-center items-center"><span class="fa-solid fa-plus fa-lg" style="color: #ffffff;"></span></div>
+                        <button class="bg-cust-red py-2 px-4 rounded-xl h-10 md:h-8 md:py-1.5 md:px-3.5">Watch</button>
+                        <div class="bg-gray-500 p-4 rounded-lg w-14 h-10 flex justify-center items-center md:h-8 md:w-12 md:p-3.5"><span class="fa-solid fa-plus fa-lg" style="color: #ffffff;"></span></div>
                         <section class="flex grow-2 gap-4 justify-end">
-                            <div><img class="h-10 rounded-lg object-cover" src="images/britsd.jpg" alt="Scene Card"></div>
-                            <div><img class="h-10 rounded-lg object-cover" src="images/unironicallygoeshard.jpg" alt="Scene Card"></div>
-                            <div><img class="h-10 rounded-lg object-cover" src="images/peakygang.webp" alt="Scene Card"></div>
+                            <div><img class="h-10 rounded-lg object-cover md:h-8" src="images/britsd.jpg" alt="Scene Card"></div>
+                            <div><img class="h-10 rounded-lg object-cover md:h-8" src="images/unironicallygoeshard.jpg" alt="Scene Card"></div>
+                            <div><img class="h-10 rounded-lg object-cover md:h-8" src="images/peakygang.webp" alt="Scene Card"></div>
                         </section>
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-between gap-4 h-2/3">
-                    <h3 class="text-white h-1/6">Popcorn Mania</h3>
+                <div class="flex flex-col justify-between gap-4 h-2/3 md:gap-2 md:h-4/5">
+                    <h3 class="text-white h-1/6 md:text-xs md:h-fit">Popcorn Mania</h3>
                     <section class="flex justify-between w-full h-5/6">
-                        <div class="cust-w-vid h-full bg-cover bg-center rounded-xl shadow shadow-red-400 flex items-end" id="brook"></div>
-                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex items-end bg-center" id="readyPlay"></div>
-                        <div class="cust-w-vid h-full bg-cover bg-center rounded-xl shadow shadow-red-400 flex items-end" id="moneyHeist"></div>
-                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex items-end" id="ashEvil"></div>
+                        <div class="cust-w-vid h-full bg-cover bg-center rounded-xl shadow shadow-red-400 flex md:p-2 items-end" id="brook">
+                            <div class="flex flex-col w-full">
+                                <h2 class="text-white grow-2">wepoweirj</h2>
+                                <div class="text-white flex justify-between">
+                                    <span>20</span>
+                                    <span>13&plus;</span>
+                                    <span>Seasons</span>
+                                    <i class="fa-solid fa-ellipsis-vertical text-xl grow-2 text-right md:text-base" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex items-end md:p-2 bg-center" id="readyPlay">
+                            <div class="flex flex-col w-full">
+                                <h2 class="text-white grow-2">wepoweirj</h2>
+                                <div class="text-white flex justify-between">
+                                    <span>20</span>
+                                    <span>13&plus;</span>
+                                    <span>Seasons</span>
+                                    <i class="fa-solid fa-ellipsis-vertical text-xl grow-2 text-right md:text-base" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cust-w-vid h-full bg-cover bg-center rounded-xl shadow shadow-red-400 flex md:p-2 items-end" id="moneyHeist">
+                            <div class="flex flex-col w-full">
+                                <h2 class="text-white grow-2">wepoweirj</h2>
+                                <div class="text-white flex justify-between">
+                                    <span>20</span>
+                                    <span>13&plus;</span>
+                                    <span>Seasons</span>
+                                    <i class="fa-solid fa-ellipsis-vertical text-xl grow-2 text-right md:text-base" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex items-end md:p-2" id="ashEvil">
+                            <div class="flex flex-col w-full">
+                                <h2 class="text-white grow-2">wepoweirj</h2>
+                                <div class="text-white flex justify-between">
+                                    <span>20</span>
+                                    <span>13&plus;</span>
+                                    <span>Seasons</span>
+                                    <i class="fa-solid fa-ellipsis-vertical text-xl grow-2 text-right md:text-base" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                        </div>
+
                     </section>
 
-                    <h3 class="text-white h-1/6">Continue Watching</h3>
-                    <section class="flex justify-between w-full h-2/3">
-                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex p-3 items-end" id="redNot">
-                            <progress class="bg-white w-full cust-progBar smolHeight rounded-2xl shadow-md shadow-black"  value="30" max="100"></progress>
+                    <h3 class="text-white h-1/6 md:text-xs md:h-fit">Continue Watching</h3>
+                    <section class="flex justify-between w-full h-3/4">
+
+                        <div class="cust-w-vid h-full bg-gradient-to-r from-transparent to-black bg-cover rounded-xl shadow-md shadow-red-400 flex flex-col items-start justify-end" id="redNot">
+                            <h3 class="text-white px-3 py-0 md:px-2 md:text-sm">Red Notice</h3>
+                            <div class="w-full h-2/6 rounded-b-xl cust-progBar flex justify-center items-center p-3 pt-0 md:p-2 md:pt">
+                                <progress class="bg-white w-full shadow-xl shadow-black cust-progBar h-1/3 rounded-2xl"  value="19" max="100"></progress>
+                            </div>
                         </div>
-                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex p-3 items-end" id="extraction">
-                            <progress class="bg-white w-full cust-progBar smolHeight rounded-2xl shadow-md shadow-black"  value="30" max="100"></progress>
+
+                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow-md shadow-red-400 flex flex-col items-start justify-end" id="extraction">
+                            <h3 class="text-white px-3 py-0 md:px-2 md:text-sm">Extraction</h3>
+                            <div class="w-full h-2/6 rounded-b-xl cust-progBar flex justify-center items-center p-3 pt-0 md:p-2 md:pt">
+                                <progress class="bg-white w-full shadow-xl shadow-black cust-progBar h-1/3 rounded-2xl"  value="87" max="100"></progress>
+                            </div>
                         </div>
-                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex p-3 items-end" id="adamProj">
-                            <progress class="bg-white w-full cust-progBar smolHeight rounded-2xl shadow-md shadow-black" value="30" max="100"></progress>
+
+                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow-md shadow-red-400 flex flex-col items-start justify-end" id="adamProj">
+                            <h3 class="text-white px-3 py-0 md:px-2 md:text-sm">The Adam Project</h3>
+                            <div class="w-full h-2/6 rounded-b-xl cust-progBar flex justify-center items-center p-3 pt-0 md:p-2 md:pt">
+                                <progress class="bg-white w-full shadow-xl shadow-black cust-progBar h-1/3 rounded-2xl"  value="30" max="100"></progress>
+                            </div>
                         </div>
-                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow shadow-red-400 flex p-3 items-end" id="oldGuard">
-                            <progress class="bg-white w-full cust-progBar smolHeight rounded-2xl shadow-2xl shadow-slate-950"  value="30" max="100"></progress>
+
+                        <div class="cust-w-vid h-full bg-cover rounded-xl shadow-md shadow-red-400 flex flex-col items-start justify-end" id="oldGuard">
+                            <h3 class="text-white px-3 py-0 md:px-2 md:text-sm">The Old Gaurd</h3>
+                            <div class="w-full h-2/6 rounded-b-xl cust-progBar flex justify-center items-center p-3 pt-0 md:p-2 md:pt">
+                                <progress class="bg-white w-full shadow-xl shadow-black cust-progBar h-1/3 rounded-2xl"  value="40" max="100"></progress>
+                            </div>
                         </div>
                     </section>
                 </div>
