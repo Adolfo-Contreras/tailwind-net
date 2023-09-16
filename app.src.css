@@ -53,3 +53,7 @@ width: 23.5%;
     pointer-events: none;
     z-index: 3; 
   }
+  .cust-icon-s{
+    font-size: 0.05rem;
+    line-height: 0.25rem;
+  }
