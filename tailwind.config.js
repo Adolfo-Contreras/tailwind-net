@@ -5,16 +5,22 @@ module.exports = {
     "./index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      scale: {
+        '101': '1.01',
+      },
+      flexGrow: {
+        2:'2',
+        3: '3',
+        4:'4'
+      }
+    },
   },
   plugins: [
     function ({ addUtilities }) {
     const newUtilities = {
       '.hovGrow': {
         '@apply transform transition-transform': '',
-      },
-      '.cardGradient':{
-        '@apply ': '',
       },
     };
 
